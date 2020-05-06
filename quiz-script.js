@@ -85,11 +85,11 @@ function loadNextQuestion () {
 		container.style.display = 'none';
 		resultCont.style.display = '';
 		questionEll.textContent = 'Votre Score RI: ' + score;
-		document.getElementById("save").href="Enregistrement0ed0.html?ri="+score;
+		document.getElementById("save").href="Enregistrement.html?ri="+score;
 		if(score >= 6){
 			console.log("score : ", score)
 			document.getElementById("btnScd").style.display="inline-block";
-			document.getElementById("secondTest").href="Evaluation-gravite0ed0.html?ri="+score;
+			document.getElementById("secondTest").href="Evaluation-gravite.html?ri="+score;
 		}
 		return;
 	}
@@ -106,12 +106,12 @@ function loadNextQuestion () {
 		
 	}
 	if(score >= 6 & score <= 9 ){
-		interpretationCont.textContent = 'Seek a consultation with Doctor / Consultation Medicale, veuillez suivre le second test RG et ensuite appelez immediatement un numéro vert de votre localité. ';
+		interpretationCont.textContent = 'Seek a consultation with Doctor / Consultation Medicale, veuillez suivre le second test RG et ensuite appelez immediatement un numÃ©ro vert de votre localitÃ©. ';
 		
 		
 	}
 	if(score >= 10 & score <= 21 ){
-		interpretationCont.textContent = 'Need for emergency care / a besoin des soins en urgence, veuillez suivre le second test RG et ensuite appelez immediatement un numéro vert de votre localité.';
+		interpretationCont.textContent = 'Need for emergency care / a besoin des soins en urgence, veuillez suivre le second test RG et ensuite appelez immediatement un numÃ©ro vert de votre localitÃ©.';
 		
 	}
 

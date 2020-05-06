@@ -79,7 +79,7 @@ function loadNextQuestion () {
 		container.style.display = 'none';
 		resultCont.style.display = '';
 		questionEll.textContent = 'Votre Score RG: ' + score;
-		document.getElementById("save").href="Enregistrement0ed0.html?ri="+RI+"&rg="+score;
+		document.getElementById("save").href="Enregistrement.html?ri="+RI+"&rg="+score;
 		return;
 	}
 	

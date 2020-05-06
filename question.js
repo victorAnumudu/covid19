@@ -66,4 +66,3 @@ var questions = [{
     "answer": "1"
  }
 ];
-
